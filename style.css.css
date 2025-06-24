@@ -154,8 +154,9 @@ body {
        .part3 {
         height: 200px;
         width: 200px;
-        /* object-fit:; */
-          box-sizing:border-box ;
+    }
+    .part4{
+        font-size: .5rem;
     }
   
 }

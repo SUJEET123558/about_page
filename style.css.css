@@ -116,6 +116,7 @@ body {
   font-weight: 600;
 }
 
+
 /* Large desktops (1200px and above) */
 @media (min-width: 1200px) {
     body {
@@ -128,6 +129,10 @@ body {
     body {
         background-color: lightgreen;
     }
+       .part3 {
+        height: 120px;
+        width: 200px;
+    }
 }
 
 /* Tablets (768px to 991px) */
@@ -135,12 +140,20 @@ body {
     body {
         background-color: lightgoldenrodyellow;
     }
+    .part3 {
+        height: 120px;
+        width: 200px;
+    }
 }
 
 /* Large phones (576px to 767px) */
 @media (min-width: 576px) and (max-width: 767px) {
     body {
         background-color: lightsalmon;
+    }
+       .part3 {
+        height: 140px;
+        width: 300px;
     }
 }
 

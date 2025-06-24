@@ -151,14 +151,24 @@ body {
     body {
         background-color: lightsalmon;
     }
-       .part3 {
+    .part3 {
         height: 200px;
         width: 200px;
     }
-    .part4{
-        font-size: .5rem;
+       .main_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
     }
-  
+    .part4{
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0;
+    }
 }
 
 /* Small phone layout */
@@ -202,22 +212,22 @@ body {
         color: black;
         font-weight: bold;
     }
-
-    .main_section {
+    .part3 {
+        height: 200px;
+        width: 200px;
+    }
+       .main_section {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         text-align: center;
     }
-
-    .part3 {
-        height: 200px;
-        width: 200px;
-    }
     .part4{
         font-size: 0.8rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0;
     }
-
-
 }

@@ -61,10 +61,10 @@ body {
 }
 
 .part3 {
-    background-image: url("Equal.png");
+    background-image: url("square_image.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 285px;
+    background-size: cover;
+    height: 300px;
     width: 300px;
     border-radius: 50%;
     border: 2px solid blue;
@@ -73,7 +73,6 @@ body {
 .part4 {
     text-align: start;
     margin-top: 18%;
-    /* margin-left: 18%; */
     color: #2A3545;
 }
 .main_contain h3{
@@ -83,17 +82,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* align-items: flex-start; */
     text-align: start;
-    /* text-align: center; */
     gap: 20px;
-    /* background-color: a; */
 }
 .about {
   max-width: 900px;
   margin: auto;
   padding: 30px 20px;
-  color: #1f2937; /* dark gray-blue */
+  color: #1f2937;
   line-height: 1.6;
   font-size: 16px;
 }
@@ -107,15 +103,13 @@ body {
 .about p {
   margin-bottom: 15px;
   font-size: 1.3rem;
-  /* align-items: self-start; */
-  /* justify-content: flex-end; */
+
 }
 
 .about strong {
   color: #111827;
   font-weight: 600;
 }
-
 
 /* Large desktops (1200px and above) */
 @media (min-width: 1200px) {
@@ -130,8 +124,11 @@ body {
         background-color: lightgreen;
     }
        .part3 {
-        height: 120px;
+        height: 200px;
         width: 200px;
+    }
+    .part4{
+        font-size: .6rem;
     }
 }
 
@@ -140,9 +137,12 @@ body {
     body {
         background-color: lightgoldenrodyellow;
     }
-    .part3 {
-        height: 120px;
+        .part3 {
+        height: 200px;
         width: 200px;
+    }
+    .part4{
+        font-size: .5rem;
     }
 }
 
@@ -152,9 +152,12 @@ body {
         background-color: lightsalmon;
     }
        .part3 {
-        height: 140px;
-        width: 300px;
+        height: 100px;
+        width: 100px;
+        /* object-fit:; */
+          box-sizing:border-box ;
     }
+  
 }
 
 /* Small phone layout */
